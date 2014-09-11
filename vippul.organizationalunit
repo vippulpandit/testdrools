@@ -1,0 +1,29 @@
+<group>
+  <name>vippul</name>
+  <description></description>
+  <type>ORGANIZATIONAL_UNIT</type>
+  <enabled>true</enabled>
+  <items>
+    <entry>
+      <string>owner</string>
+      <item>
+        <name>owner</name>
+        <value class="string">vippulpandit</value>
+      </item>
+    </entry>
+    <entry>
+      <string>repositories</string>
+      <item>
+        <name>repositories</name>
+        <value class="list"/>
+      </item>
+    </entry>
+    <entry>
+      <string>security:roles</string>
+      <item>
+        <name>security:roles</name>
+        <value class="list"/>
+      </item>
+    </entry>
+  </items>
+</group>

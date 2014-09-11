@@ -1,0 +1,24 @@
+<group>
+  <name>com.unh:testrepo:0.0.1:test:test</name>
+  <description></description>
+  <type>DEPLOYMENT</type>
+  <enabled>true</enabled>
+  <items>
+    <entry>
+      <string>unit</string>
+      <item>
+        <name>unit</name>
+        <value class="org.jbpm.kie.services.impl.KModuleDeploymentUnit">
+          <artifactId>testrepo</artifactId>
+          <groupId>com.unh</groupId>
+          <version>0.0.1</version>
+          <kbaseName>test</kbaseName>
+          <ksessionName>test</ksessionName>
+          <strategy>SINGLETON</strategy>
+          <mergeMode>MERGE_COLLECTIONS</mergeMode>
+          <deployed>false</deployed>
+        </value>
+      </item>
+    </entry>
+  </items>
+</group>
